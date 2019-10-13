@@ -1,0 +1,4616 @@
+<?xml version="1.0" encoding="UTF-8"?><_ROOT_ EMVERSION="14.3" ORIENTATION="HORIZONTAL">
+<Workspace>
+<NODES>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="DMDB" ID="DMDB" X="368" Y="26" DESCRIPTION="DMDB" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="DMDB">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.DMDB.SOURCE" Interval="Y" Class="Y" MaxValues="25" ForceRun="N" RunAction="Train" Component="DMDB" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="FileImport" ID="FIMPORT" X="18" Y="71" DESCRIPTION="File Import" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="FIMPORT">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMSAMP.Fimport.SOURCE" ImportType="Local" GuessRows="500" Delimiter="," NameRow="Y" SkipRows="0" MaxRows="1000000" MaxCols="10000" FileType="csv" Role="TRAIN" ForceRun="N" Summarize="N" AdvancedAdvisor="N" RunAction="Train" Component="FileImport" IFileName="C:\Users\mouni\Desktop\SAS Symposium project\yrbss\yrbss17.csv" AccessTable="NoTableName" UserID="NoUserID" Password="NoPassword">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="PSU" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="age" AttributeName="LEVEL" AttributeValue="ORDINAL"/>
+<DELTA Variable="grade" AttributeName="LEVEL" AttributeValue="ORDINAL"/>
+<DELTA Variable="q10" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q11" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q13" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q15" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q17" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q18" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q19" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q20" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q21" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q22" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q23" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q24" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q25" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q26" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q27" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q28" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q29" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q30" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q32" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q33" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q34" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q35" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q36" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q37" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q38" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q40" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q41" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q42" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q43" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q44" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q46" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q47" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q48" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q49" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q50" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q51" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q52" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q53" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q54" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q56" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q59" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q60" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q61" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q62" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q63" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q64" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q65" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q70" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q71" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q72" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q73" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q74" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q75" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q76" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q79" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q8" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q80" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q81" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q82" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q83" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q84" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q86" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q88" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q89" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="q9" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qbikehelmet" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qcelldriving" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qcigschool" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qconcentrating" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qcurrentheroin" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qcurrentmeth" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qdrivemarijuana" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qhowmarijuana" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qmusclestrength" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn10" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn10" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn11" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn11" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn12" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn13" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn13" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn14" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn15" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn15" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn16" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn17" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn17" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn18" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn18" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn19" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn19" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn20" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn20" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn21" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn21" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn22" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn22" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn23" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn23" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn24" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn24" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn25" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn25" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn26" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn26" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn27" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn27" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn28" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn28" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn29" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn29" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn30" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn30" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn31" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn32" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn32" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn33" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn33" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn34" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn34" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn35" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn35" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn36" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn36" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn37" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn37" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn38" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn38" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn39" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn40" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn40" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn41" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn41" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn42" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn42" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn43" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn43" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn44" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn44" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn45" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn46" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn46" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn47" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn47" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn48" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn48" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn49" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn49" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn50" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn50" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn51" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn51" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn52" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn52" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn53" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn53" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn54" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn54" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn55" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn56" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn56" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn57" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn58" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn59" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn59" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn60" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn60" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn61" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn61" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn62" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn62" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn63" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn63" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn64" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn64" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn65" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn65" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn68" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn69" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn70" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn70" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn71" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn71" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn72" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn72" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn73" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn73" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn74" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn74" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn75" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn75" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn76" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn76" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn77" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn78" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn79" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn79" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn8" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn8" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn80" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn80" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn81" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn81" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn82" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn82" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn83" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn83" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn84" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn84" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn85" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn86" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn86" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn87" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn88" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn88" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn89" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn89" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qn9" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn9" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnalcoholschool" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbcnone" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbcnone" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnbikehelmet" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbikehelmet" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnbk7day" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbullygay" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbullygender" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbullyweight" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncelldriving" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncelldriving" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnchewtobschool" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnchokeself" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncigschool" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncigschool" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qncoffeetea" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnconcentrating" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnconcentrating" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qncurrentasthma" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncurrentcocaine" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncurrentheroin" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncurrentheroin" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qncurrentmeth" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncurrentmeth" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qndaycgr" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndaycgr" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qndaycig" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndaycig" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qndayevp" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndayevp" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qndayskl" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndayskl" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qndietpop" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndlype" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndlype" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qndrivemarijuana" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndrivemarijuana" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qndualbc" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndualbc" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnenergydrink" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfastfood" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfoodallergy" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfr0" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfr0" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnfr1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfr1" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnfr2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfr2" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnfr3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfr3" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnfrcgr" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfrcgr" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnfrcig" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfrcig" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnfrevp" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfrevp" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnfrskl" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfrskl" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qngenderexp" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnhallucdrug" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnhowmarijuana" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnhowmarijuana" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnindoortanning" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qniudimp" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qniudimp" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnmarijuanaschool" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnmilk1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnmilk2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnmilk3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnmusclestrength" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnmusclestrength" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnnodnt" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnnodnt" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnobese" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnobese" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnothhpl" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnothhpl" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnowt" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnowt" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnpa0day" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnpa0day" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnpa7day" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnpa7day" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnprescription30d" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnpropertydamage" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnshparg" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnshparg" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnsoda1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsoda1" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnsoda2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsoda2" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnsoda3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsoda3" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnspdrk1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnspdrk1" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnspdrk2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnspdrk2" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnspdrk3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnspdrk3" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnspeakenglish" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsportsdrink" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsportsdrink" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnsugardrink" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsunburn" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsunscreenuse" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntaughtHIV" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntaughtbc" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntaughtcondom" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntaughtsexed" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntaughtstd" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntb2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntb2" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qntb3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntb3" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qntb4" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntb4" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qntransgender" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntypealcohol" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnveg0" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnveg0" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnveg1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnveg1" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnveg2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnveg2" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnveg3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnveg3" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qnwater" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwater1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwater2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwater3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwenthungry" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwheresleep" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwheresleep" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qsportsdrink" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="qwheresleep" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="race4" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="race7" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="record" AttributeName="ROLE" AttributeValue="ID"/>
+<DELTA Variable="record" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="sex" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="sitetypenum" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="stratum" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="survyear" AttributeName="LEVEL" AttributeValue="UNARY"/>
+<DELTA Variable="year" AttributeName="LEVEL" AttributeValue="UNARY"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<VARIABLESETDELTA Type="EXTERNAL" Extension="txt">
+<Data><![CDATA[
+if NAME=&quot;age&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;ORDINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;grade&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;ORDINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;PSU&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q10&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q11&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q13&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q15&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q17&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q18&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q19&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q20&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q21&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q22&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q23&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q24&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q25&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q26&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q27&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q28&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q29&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q30&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q32&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q33&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q34&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q35&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q36&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q37&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q38&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q40&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q41&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q42&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q43&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q44&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q46&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q47&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q48&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q49&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q50&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q51&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q52&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q53&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q54&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q56&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q59&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q60&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q61&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q62&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q63&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q64&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q65&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q70&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q71&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q72&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q73&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q74&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q75&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q76&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q79&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q8&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q80&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q81&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q82&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q83&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q84&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q86&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q88&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q89&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;q9&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qbikehelmet&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qcelldriving&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qcigschool&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qconcentrating&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qcurrentheroin&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qcurrentmeth&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qdrivemarijuana&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qhowmarijuana&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qmusclestrength&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn10&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn11&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn12&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn13&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn14&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn15&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn16&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn17&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn18&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn19&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn20&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn21&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn22&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn23&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn24&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn25&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn26&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn27&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn28&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn29&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn30&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn31&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn32&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn33&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn34&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn35&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn36&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn37&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn38&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn39&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn40&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn41&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn42&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn43&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn44&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn45&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn46&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn47&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn48&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn49&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn50&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn51&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn52&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn53&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn54&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn55&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn56&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn57&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn58&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn59&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn60&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn61&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn62&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn63&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn64&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn65&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn68&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn69&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn70&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn71&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn72&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn73&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn74&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn75&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn76&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn77&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn78&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn79&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn8&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn80&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn81&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn82&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn83&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn84&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn85&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn86&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn87&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn88&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn89&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qn9&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnalcoholschool&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnbcnone&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnbikehelmet&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnbk7day&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnbullygay&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnbullygender&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnbullyweight&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qncelldriving&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnchewtobschool&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnchokeself&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qncigschool&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qncoffeetea&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnconcentrating&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qncurrentasthma&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qncurrentcocaine&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qncurrentheroin&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qncurrentmeth&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qndaycgr&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qndaycig&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qndayevp&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qndayskl&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qndietpop&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qndlype&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qndrivemarijuana&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qndualbc&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnenergydrink&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnfastfood&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnfoodallergy&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnfr0&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnfr1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnfr2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnfr3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnfrcgr&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnfrcig&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnfrevp&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnfrskl&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qngenderexp&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnhallucdrug&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnhowmarijuana&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnindoortanning&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qniudimp&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnmarijuanaschool&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnmilk1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnmilk2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnmilk3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnmusclestrength&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnnodnt&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnobese&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnothhpl&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnowt&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnpa0day&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnpa7day&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnprescription30d&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnpropertydamage&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnshparg&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnsoda1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnsoda2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnsoda3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnspdrk1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnspdrk2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnspdrk3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnspeakenglish&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnsportsdrink&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnsugardrink&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnsunburn&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnsunscreenuse&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qntaughtbc&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qntaughtcondom&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qntaughtHIV&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qntaughtsexed&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qntaughtstd&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qntb2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qntb3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qntb4&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qntransgender&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qntypealcohol&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnveg0&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnveg1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnveg2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnveg3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnwater&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnwater1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnwater2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnwater3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnwenthungry&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qnwheresleep&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qsportsdrink&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;qwheresleep&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;race4&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;race7&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;record&quot; then do;
+ROLE=&quot;ID&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;sex&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;sitetypenum&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;stratum&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;survyear&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;UNARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;year&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;UNARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+]]>
+</Data>
+</VARIABLESETDELTA>
+<DELTACODE Type="EXTERNAL" Extension="txt">
+<Data><![CDATA[
+if NAME=&quot;age&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;ORDINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;grade&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;ORDINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;PSU&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q10&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q11&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q13&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q15&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q17&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q18&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q19&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q20&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q21&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q22&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q23&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q24&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q25&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q26&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q27&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q28&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q29&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q30&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q32&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q33&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q34&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q35&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q36&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q37&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q38&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q40&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q41&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q42&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q43&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q44&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q46&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q47&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q48&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q49&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q50&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q51&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q52&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q53&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q54&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q56&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q59&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q60&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q61&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q62&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q63&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q64&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q65&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q70&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q71&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q72&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q73&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q74&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q75&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q76&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q79&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q8&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q80&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q81&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q82&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q83&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q84&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q86&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q88&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q89&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;q9&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qbikehelmet&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qcelldriving&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qcigschool&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qconcentrating&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qcurrentheroin&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qcurrentmeth&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qdrivemarijuana&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qhowmarijuana&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qmusclestrength&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn10&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn11&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn12&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn13&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn14&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn15&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn16&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn17&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn18&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn19&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn20&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn21&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn22&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn23&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn24&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn25&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn26&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn27&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn28&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn29&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn30&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn31&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn32&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn33&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn34&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn35&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn36&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn37&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn38&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn39&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn40&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn41&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn42&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn43&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn44&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn45&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn46&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn47&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn48&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn49&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn50&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn51&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn52&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn53&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn54&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn55&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn56&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn57&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn58&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn59&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn60&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn61&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn62&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn63&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn64&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn65&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn68&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn69&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn70&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn71&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn72&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn73&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn74&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn75&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn76&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn77&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn78&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn79&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn8&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn80&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn81&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn82&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn83&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn84&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn85&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn86&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn87&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn88&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn89&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qn9&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnalcoholschool&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnbcnone&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnbikehelmet&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnbk7day&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnbullygay&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnbullygender&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnbullyweight&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qncelldriving&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnchewtobschool&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnchokeself&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qncigschool&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qncoffeetea&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnconcentrating&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qncurrentasthma&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qncurrentcocaine&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qncurrentheroin&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qncurrentmeth&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qndaycgr&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qndaycig&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qndayevp&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qndayskl&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qndietpop&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qndlype&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qndrivemarijuana&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qndualbc&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnenergydrink&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnfastfood&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnfoodallergy&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnfr0&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnfr1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnfr2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnfr3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnfrcgr&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnfrcig&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnfrevp&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnfrskl&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qngenderexp&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnhallucdrug&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnhowmarijuana&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnindoortanning&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qniudimp&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnmarijuanaschool&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnmilk1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnmilk2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnmilk3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnmusclestrength&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnnodnt&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnobese&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnothhpl&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnowt&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnpa0day&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnpa7day&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnprescription30d&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnpropertydamage&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnshparg&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnsoda1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnsoda2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnsoda3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnspdrk1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnspdrk2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnspdrk3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnspeakenglish&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnsportsdrink&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnsugardrink&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnsunburn&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnsunscreenuse&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qntaughtbc&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qntaughtcondom&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qntaughtHIV&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qntaughtsexed&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qntaughtstd&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qntb2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qntb3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qntb4&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qntransgender&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qntypealcohol&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnveg0&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnveg1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnveg2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnveg3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnwater&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnwater1&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnwater2&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnwater3&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnwenthungry&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qnwheresleep&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qsportsdrink&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;qwheresleep&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;race4&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;race7&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;record&quot; then do;
+ROLE=&quot;ID&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;sex&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;sitetypenum&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;stratum&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;survyear&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;UNARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;year&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;UNARY&quot;;
+ORDER=&quot;&quot;;
+end;
+drop DROP;
+]]>
+</Data>
+</DELTACODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.FILTERTOOL.CLASS" COMPONENT="Filter" ID="Filter" X="169" Y="79" DESCRIPTION="Filter" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Filter">
+<PROPERTIES KeepMissingClass="Y" KeepMissingInterval="Y" NormalizeClassValue="Y" ExportTable="FILTERED" TabletoFilter="TRAIN" IntervalFilterMethod="STDDEV" ClassFilterMethod="NONE" MinFreq="1" MinPercent="0.01" MaxValues="25" MADSCutoff="9" SpacingsCutoff="9" StddevCutoff="3" PercentsCutoff="0.5" PublishScoreCode="Y" CreateDistributionData="Y" UpdateClassLevel="N" ForceRun="N" RunAction="Train" Component="Filter">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="q28" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<CLASSFILTER Type="DATA">
+<Data>
+<Obs VARIABLE="q28" VALUE="           ." COUNT="13283" PERCENT="12.337457274" FILTER="Y"/>
+</Data>
+<Metadata>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VALUE" LABEL="Value" LENGTH="12" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Frequency Count" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="PERCENT" LABEL="Percent" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="Filter" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</CLASSFILTER>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.EMIMPUTE.CLASS" COMPONENT="Impute" ID="Impt" X="619" Y="259" DESCRIPTION="Impute" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Impt">
+<PROPERTIES MethodInterval="MEAN" MethodClass="COUNT" MethodTargetInterval="NONE" MethodTargetClass="NONE" ABWTuning="9" AHUBERTuning="1.5" AWAVETuning="6.2831853072" SpacingProportion="90" DefaultChar="" DefaultNum="." RandomSeed="12345" Normalize="Y" ImputeNoMissing="N" MaxPctMissing="30" ValidateTestMissing="N" DistributionMissing="N" LeafSize="5" Maxbranch="2" Maxdepth="6" MinCatSize="5" Nrules="5" Nsurrs="2" Splitsize="." Indicator="NONE" IndicatorRole="REJECTED" ReplaceVariable="N" HideVariable="Y" IndicatorSource="IMPUTED" ForceRun="N" RunAction="Train" Component="Impute">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.EMMETADATA.CLASS" COMPONENT="Metadata" ID="Meta" X="343" Y="176" DESCRIPTION="Metadata" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="UTILITY" TOOLPREFIX="Meta">
+<PROPERTIES HideRejected="N" AdvancedAdvisor="N" CombineRule="NONE" ComputeStatistics="N" ForceRun="N" RunAction="Train" Component="Metadata">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="PSU" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="age" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="bmi" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="bmipct" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="grade" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q10" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q11" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q12" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q13" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q14" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q15" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q16" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q17" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q18" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q19" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q20" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q21" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q22" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q23" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q24" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q25" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q25" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q25" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q26" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q26" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q26" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q27" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q27" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q27" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q28" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q28" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q28" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q29" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q29" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q29" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q30" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q30" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q30" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q31" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q32" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q33" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q34" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q35" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q36" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q37" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q38" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q39" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q40" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q41" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q42" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q43" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q44" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q45" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q46" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q47" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q48" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q49" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q50" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q51" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q52" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q53" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q54" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q55" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q56" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q57" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q58" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q59" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q60" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q61" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q62" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q63" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q64" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q65" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q66" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q67" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q68" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q69" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q70" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q71" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q72" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q73" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q74" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q75" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q76" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q77" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q78" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q79" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q8" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q80" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q81" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q82" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q83" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q84" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q85" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q86" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q87" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q88" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q89" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q9" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qalcoholschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qbikehelmet" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qbullygay" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qbullygender" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qbullyweight" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcelldriving" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qchewtobschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qchokeself" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcigschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcoffeetea" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qconcentrating" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcurrentasthma" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcurrentcocaine" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcurrentheroin" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcurrentmeth" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qdietpop" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qdrivemarijuana" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qenergydrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qfastfood" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qfoodallergy" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qgenderexp" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qhallucdrug" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qhowmarijuana" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qindoortanning" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qmarijuanaschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qmusclestrength" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn10" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn10" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn11" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn11" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn12" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn12" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn13" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn13" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn14" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn14" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn15" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn15" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn16" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn16" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn17" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn17" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn18" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn18" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn19" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn19" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn20" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn20" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn21" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn21" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn22" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn22" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn23" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn23" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn24" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn24" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn25" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn25" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn26" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn26" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn27" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn27" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn28" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn28" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn29" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn29" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn30" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn30" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn31" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn31" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn32" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn32" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn33" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn33" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn34" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn34" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn35" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn35" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn36" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn36" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn37" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn37" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn38" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn38" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn39" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn39" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn40" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn40" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn41" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn41" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn42" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn42" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn43" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn43" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn44" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn44" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn45" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn45" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn46" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn46" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn47" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn47" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn48" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn48" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn49" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn49" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn50" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn50" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn51" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn51" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn52" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn52" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn53" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn53" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn54" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn54" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn55" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn55" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn56" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn56" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn57" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn57" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn58" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn58" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn59" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn59" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn60" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn60" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn61" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn61" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn62" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn62" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn63" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn63" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn64" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn64" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn65" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn65" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn68" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn68" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn69" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn69" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn70" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn70" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn71" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn71" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn72" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn72" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn73" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn73" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn74" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn74" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn75" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn75" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn76" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn76" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn77" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn77" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn78" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn78" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn79" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn79" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn8" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn8" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn80" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn80" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn81" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn81" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn82" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn82" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn83" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn83" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn84" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn84" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn85" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn85" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn86" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn86" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn87" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn87" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn88" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn88" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn89" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn89" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qn9" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn9" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnalcoholschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnalcoholschool" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbcnone" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbcnone" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbikehelmet" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbikehelmet" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbk7day" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbk7day" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbullygay" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbullygay" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbullygender" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbullygender" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnbullyweight" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbullyweight" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncelldriving" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncelldriving" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnchewtobschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnchewtobschool" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnchokeself" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnchokeself" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncigschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncigschool" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncoffeetea" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncoffeetea" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnconcentrating" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnconcentrating" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncurrentasthma" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncurrentasthma" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncurrentcocaine" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncurrentcocaine" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncurrentheroin" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncurrentheroin" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qncurrentmeth" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncurrentmeth" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndaycgr" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndaycgr" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndaycig" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndaycig" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndayevp" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndayevp" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndayskl" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndayskl" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndietpop" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndietpop" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndlype" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndlype" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndrivemarijuana" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndrivemarijuana" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qndualbc" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndualbc" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnenergydrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnenergydrink" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfastfood" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfastfood" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfoodallergy" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfoodallergy" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfr0" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfr0" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfr1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfr1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfr2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfr2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfr3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfr3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfrcgr" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfrcgr" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfrcig" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfrcig" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfrevp" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfrevp" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnfrskl" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfrskl" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qngenderexp" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qngenderexp" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnhallucdrug" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnhallucdrug" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnhowmarijuana" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnhowmarijuana" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnindoortanning" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnindoortanning" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qniudimp" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qniudimp" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnmarijuanaschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnmarijuanaschool" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnmilk1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnmilk1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnmilk2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnmilk2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnmilk3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnmilk3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnmusclestrength" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnmusclestrength" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnnodnt" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnnodnt" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnobese" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnobese" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnothhpl" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnothhpl" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnowt" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnowt" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnpa0day" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnpa0day" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnpa7day" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnpa7day" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnprescription30d" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnprescription30d" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnpropertydamage" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnpropertydamage" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnshparg" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnshparg" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsoda1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsoda1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsoda2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsoda2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsoda3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsoda3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnspdrk1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnspdrk1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnspdrk2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnspdrk2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnspdrk3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnspdrk3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnspeakenglish" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnspeakenglish" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsportsdrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsportsdrink" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsugardrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsugardrink" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsunburn" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsunburn" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnsunscreenuse" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsunscreenuse" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntaughtHIV" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntaughtHIV" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntaughtbc" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntaughtbc" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntaughtcondom" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntaughtcondom" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntaughtsexed" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntaughtsexed" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntaughtstd" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntaughtstd" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntb2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntb2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntb3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntb3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntb4" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntb4" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntransgender" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntransgender" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qntypealcohol" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntypealcohol" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnveg0" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnveg0" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnveg1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnveg1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnveg2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnveg2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnveg3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnveg3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwater" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwater" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwater1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwater1" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwater2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwater2" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwater3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwater3" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwenthungry" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwenthungry" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qnwheresleep" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwheresleep" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="qprescription30d" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qpropertydamage" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qspeakenglish" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qsportsdrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qsugardrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qsunburn" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qsunscreenuse" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtaughtHIV" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtaughtbc" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtaughtcondom" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtaughtsexed" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtaughtstd" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtransgender" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtypealcohol" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qwater" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qwenthungry" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qwheresleep" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="race4" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="race7" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="record" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sex" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sexid" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sexid2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sexpart" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sexpart2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sitecode" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sitename" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sitetype" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sitetypenum" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="stheight" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="stratum" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="stweight" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="survyear" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="target" AttributeName="NEWLEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="target" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="target" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="target" AttributeName="CREATOR" AttributeValue="Trans"/>
+<DELTA Variable="target" AttributeName="TYPE" AttributeValue="C"/>
+<DELTA Variable="target" AttributeName="LENGTH" AttributeValue="1"/>
+<DELTA Variable="weight" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="year" AttributeName="HIDDEN" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<IMPORTSET Type="DATA">
+<Data>
+<Obs USE="Y" PORT="DATA" NODELABEL="Trans" NODEPORT="TRAIN" LIBNAME="" DATASET="Trans_TRAIN" ROLE="TRAIN" MODTIME="1886533780.9" COLUMNMETA="Trans_CMeta_TRAIN" COLUMNMETAMODTIME="1886533781.5" EMINFO="" EMINFOMODTIME="." NOBS="-1" DATASOURCE=""/>
+<Obs USE="Y" PORT="VALIDATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TEST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCORE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TRANSACTION" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="DOCUMENT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSMEAN" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSSTAT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="ESTIMATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RANK" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="REPORTFIT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RULES" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCOREDIST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TERMS" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TREE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="VARMAP" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+</Data>
+<Metadata>
+<Variable NAME="USE" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="PORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODELABEL" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODEPORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LIBNAME" LABEL="" LENGTH="8" FORMAT="" TYPE="C"/>
+<Variable NAME="DATASET" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ROLE" LABEL="" LENGTH="20" FORMAT="" TYPE="C"/>
+<Variable NAME="MODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="COLUMNMETA" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COLUMNMETAMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="EMINFO" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EMINFOMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="NOBS" LABEL="" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DATASOURCE" LABEL="" LENGTH="29" FORMAT="" TYPE="C"/>
+</Metadata>
+</IMPORTSET>
+<VARIABLEPROPERTIES_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Variable Attributes for DATA;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;Q25&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q25&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;Q26&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q26&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;Q27&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q27&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;Q28&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q28&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;Q29&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q29&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;Q30&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q30&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;TARGET&quot; then NEWLEVEL=&quot;BINARY&quot;;
+]]>
+</Data>
+</VARIABLEPROPERTIES_DATA>
+<METACODE_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Metadata Changes;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;Q25&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q25&quot; then delete;
+if upcase(NAME) = &quot;Q26&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q26&quot; then delete;
+if upcase(NAME) = &quot;Q27&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q27&quot; then delete;
+if upcase(NAME) = &quot;Q28&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q28&quot; then delete;
+if upcase(NAME) = &quot;Q29&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q29&quot; then delete;
+if upcase(NAME) = &quot;Q30&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q30&quot; then delete;
+if upcase(NAME) = &quot;TARGET&quot; then LEVEL=&quot;BINARY&quot;;
+]]>
+</Data>
+</METACODE_DATA>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.EMMETADATA.CLASS" COMPONENT="Metadata" ID="Meta2" X="631" Y="41" DESCRIPTION="Metadata" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="UTILITY" TOOLPREFIX="Meta">
+<PROPERTIES HideRejected="N" AdvancedAdvisor="N" CombineRule="NONE" ComputeStatistics="N" ForceRun="N" RunAction="Train" Component="Metadata">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="PSU" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="age" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="bmi" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="bmipct" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="grade" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q10" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q11" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q12" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q13" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q14" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q15" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q16" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q17" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q18" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q19" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q20" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q21" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q22" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q23" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q24" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q25" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q25" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q25" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q26" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q26" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q26" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q27" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q27" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q27" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q28" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q28" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q28" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q29" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q29" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q29" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q30" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="q30" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q30" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="q31" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q32" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q33" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q34" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q35" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q36" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q37" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q38" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q39" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q40" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q41" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q42" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q43" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q44" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q45" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q46" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q47" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q48" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q49" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q50" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q51" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q52" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q53" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q54" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q55" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q56" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q57" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q58" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q59" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q60" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q61" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q62" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q63" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q64" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q65" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q66" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q67" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q68" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q69" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q70" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q71" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q72" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q73" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q74" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q75" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q76" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q77" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q78" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q79" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q8" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q80" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q81" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q82" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q83" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q84" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q85" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q86" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q87" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q88" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q89" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="q9" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qalcoholschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qbikehelmet" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qbullygay" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qbullygender" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qbullyweight" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcelldriving" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qchewtobschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qchokeself" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcigschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcoffeetea" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qconcentrating" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcurrentasthma" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcurrentcocaine" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcurrentheroin" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qcurrentmeth" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qdietpop" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qdrivemarijuana" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qenergydrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qfastfood" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qfoodallergy" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qgenderexp" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qhallucdrug" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qhowmarijuana" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qindoortanning" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qmarijuanaschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qmusclestrength" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn10" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn11" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn12" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn13" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn14" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn15" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn16" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn17" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn18" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn19" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn20" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn21" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn22" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn23" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn24" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn25" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn26" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn27" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn28" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn29" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn30" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn31" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn32" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn33" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn34" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn35" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn36" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn37" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn38" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn39" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn40" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn41" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn42" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn43" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn44" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn45" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn46" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn47" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn48" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn49" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn50" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn51" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn52" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn53" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn54" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn55" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn56" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn57" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn58" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn59" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn60" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn61" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn62" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn63" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn64" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn65" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn68" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn69" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn70" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn71" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn72" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn73" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn74" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn75" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn76" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn77" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn78" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn79" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn8" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn80" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn81" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn82" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn83" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn84" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn85" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn86" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn87" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn88" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn89" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qn9" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnalcoholschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbcnone" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbikehelmet" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbk7day" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbullygay" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbullygender" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnbullyweight" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncelldriving" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnchewtobschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnchokeself" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncigschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncoffeetea" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnconcentrating" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncurrentasthma" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncurrentcocaine" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncurrentheroin" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qncurrentmeth" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndaycgr" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndaycig" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndayevp" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndayskl" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndietpop" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndlype" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndrivemarijuana" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qndualbc" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnenergydrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfastfood" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfoodallergy" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfr0" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfr1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfr2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfr3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfrcgr" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfrcig" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfrevp" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnfrskl" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qngenderexp" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnhallucdrug" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnhowmarijuana" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnindoortanning" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qniudimp" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnmarijuanaschool" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnmilk1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnmilk2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnmilk3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnmusclestrength" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnnodnt" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnobese" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnothhpl" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnowt" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnpa0day" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnpa7day" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnprescription30d" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnpropertydamage" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnshparg" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsoda1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsoda2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsoda3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnspdrk1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnspdrk2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnspdrk3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnspeakenglish" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsportsdrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsugardrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsunburn" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnsunscreenuse" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntaughtHIV" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntaughtbc" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntaughtcondom" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntaughtsexed" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntaughtstd" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntb2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntb3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntb4" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntransgender" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qntypealcohol" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnveg0" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnveg1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnveg2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnveg3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwater" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwater1" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwater2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwater3" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwenthungry" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qnwheresleep" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qprescription30d" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qpropertydamage" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qspeakenglish" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qsportsdrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qsugardrink" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qsunburn" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qsunscreenuse" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtaughtHIV" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtaughtbc" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtaughtcondom" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtaughtsexed" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtaughtstd" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtransgender" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qtypealcohol" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qwater" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qwenthungry" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="qwheresleep" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="race4" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="race7" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="record" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sex" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sexid" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sexid2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sexpart" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sexpart2" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sitecode" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sitename" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sitetype" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="sitetypenum" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="stheight" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="stratum" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="stweight" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="survyear" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="target" AttributeName="NEWLEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="target" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="weight" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="year" AttributeName="HIDDEN" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+<METACODE_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Metadata Changes;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;Q25&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q25&quot; then delete;
+if upcase(NAME) = &quot;Q26&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q26&quot; then delete;
+if upcase(NAME) = &quot;Q27&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q27&quot; then delete;
+if upcase(NAME) = &quot;Q28&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q28&quot; then delete;
+if upcase(NAME) = &quot;Q29&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q29&quot; then delete;
+if upcase(NAME) = &quot;Q30&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q30&quot; then delete;
+if upcase(NAME) = &quot;TARGET&quot; then LEVEL=&quot;BINARY&quot;;
+ 
+]]>
+</Data>
+</METACODE_DATA>
+<VARIABLEPROPERTIES_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Variable Attributes for DATA;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;Q25&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q25&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;Q26&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q26&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;Q27&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q27&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;Q28&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q28&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;Q29&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q29&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;Q30&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;Q30&quot; then HIDE=&quot;Y&quot;;
+if upcase(NAME) = &quot;TARGET&quot; then NEWLEVEL=&quot;BINARY&quot;;
+ 
+]]>
+</Data>
+</VARIABLEPROPERTIES_DATA>
+<IMPORTSET Type="DATA">
+<Data>
+<Obs USE="Y" PORT="DATA" NODELABEL="EMCODE" NODEPORT="TRAIN" LIBNAME="" DATASET="EMCODE_TRAIN" ROLE="TRAIN" MODTIME="1886529979.3" COLUMNMETA="EMCODE_CMeta_TRAIN" COLUMNMETAMODTIME="1886529980.2" EMINFO="" EMINFOMODTIME="." NOBS="94381" DATASOURCE=""/>
+<Obs USE="Y" PORT="VALIDATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TEST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCORE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TRANSACTION" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="DOCUMENT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSMEAN" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSSTAT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="ESTIMATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RANK" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="REPORTFIT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RULES" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCOREDIST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TERMS" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TREE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="VARMAP" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+</Data>
+<Metadata>
+<Variable NAME="USE" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="PORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODELABEL" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODEPORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LIBNAME" LABEL="" LENGTH="8" FORMAT="" TYPE="C"/>
+<Variable NAME="DATASET" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ROLE" LABEL="" LENGTH="20" FORMAT="" TYPE="C"/>
+<Variable NAME="MODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="COLUMNMETA" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COLUMNMETAMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="EMINFO" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EMINFOMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="NOBS" LABEL="" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DATASOURCE" LABEL="" LENGTH="29" FORMAT="" TYPE="C"/>
+</Metadata>
+</IMPORTSET>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMSAMP.EMDPART.CLASS" COMPONENT="Partition" ID="Part" X="541" Y="370" DESCRIPTION="Data Partition" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="Part">
+<PROPERTIES Method="DEFAULT" TrainPct="70" ValidatePct="30" TestPct="0" RandomSeed="12345" OutputType="DATA" IntervalDistribution="Y" ClassDistribution="Y" ForceRun="N" RunAction="Train" Component="Partition">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="qn10" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn11" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn12" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn13" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn14" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn15" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn16" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn17" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn18" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn19" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn20" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn21" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn22" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn23" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn24" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn25" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn26" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn27" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn28" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn29" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn30" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn31" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn32" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn33" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn34" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn35" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn36" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn37" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn38" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn39" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn40" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn41" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn42" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn43" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn44" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn45" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn46" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn47" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn48" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn49" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn50" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn51" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn52" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn53" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn54" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn55" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn56" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn57" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn58" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn59" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn60" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn61" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn62" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn63" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn64" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn65" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn68" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn69" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn70" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn71" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn72" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn73" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn74" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn75" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn76" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn77" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn78" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn79" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn8" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn80" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn81" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn82" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn83" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn84" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn85" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn86" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn87" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn88" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn89" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qn9" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnalcoholschool" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnbcnone" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnbikehelmet" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnbk7day" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnbullygay" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnbullygender" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnbullyweight" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qncelldriving" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnchewtobschool" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnchokeself" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qncigschool" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qncoffeetea" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnconcentrating" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qncurrentasthma" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qncurrentcocaine" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qncurrentheroin" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qncurrentmeth" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qndaycgr" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qndaycig" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qndayevp" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qndayskl" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qndietpop" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qndlype" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qndrivemarijuana" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qndualbc" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnenergydrink" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnfastfood" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnfoodallergy" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnfr0" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnfr1" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnfr2" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnfr3" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnfrcgr" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnfrcig" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnfrevp" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnfrskl" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qngenderexp" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnhallucdrug" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnhowmarijuana" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnindoortanning" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qniudimp" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnmarijuanaschool" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnmilk1" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnmilk2" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnmilk3" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnmusclestrength" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnnodnt" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnobese" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnothhpl" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnowt" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnpa0day" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnpa7day" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnprescription30d" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnpropertydamage" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnshparg" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnsoda1" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnsoda2" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnsoda3" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnspdrk1" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnspdrk2" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnspdrk3" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnspeakenglish" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnsportsdrink" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnsugardrink" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnsunburn" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnsunscreenuse" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qntaughtHIV" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qntaughtbc" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qntaughtcondom" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qntaughtsexed" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qntaughtstd" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qntb2" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qntb3" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qntb4" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qntransgender" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qntypealcohol" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnveg0" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnveg1" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnveg2" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnveg3" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnwater" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnwater1" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnwater2" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnwater3" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnwenthungry" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="qnwheresleep" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="target" AttributeName="CREATOR" AttributeValue="EMCODE"/>
+<DELTA Variable="target" AttributeName="TYPE" AttributeValue="N"/>
+<DELTA Variable="target" AttributeName="LENGTH" AttributeValue="8"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.REGRESSION.CLASS" COMPONENT="Regression" ID="Reg" X="861" Y="56" DESCRIPTION="Regression" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Reg">
+<PROPERTIES MainEffect="Y" TwoFactor="N" Polynomial="N" PolynomialDegree="2" Terms="N" Error="LOGISTIC" LinkFunction="LOGIT" SuppressIntercept="N" InputCoding="DEVIATION" MinResourceUse="N" ModelSelection="STEPWISE" SelectionCriterion="VMISC" SelectionDefault="Y" Sequential="N" SlEntry="0.05" SlStay="0.05" Start="0" Stop="0" Force="0" Hierarchy="CLASS" Rule="NONE" MaxStep="." StepOutput="N" OptimizationTechnique="DEFAULT" ModelDefaults="Y" MaxIterations="." MaxFunctionCalls="." MaxCPUTime="1 HOUR" ConvDefaults="Y" AbsConvValue="-1.34078E154" AbsFValue="0" AbsFTime="1" AbsGValue="0.00001" AbsGTime="1" AbsXValue="1E-8" AbsXTime="1" FConvValue="0" FConvTimes="1" GConvValue="1E-6" GConvTimes="1" ClParm="N" Covout="N" CovB="N" CorB="N" Simple="N" SuppressOutput="N" Details="N" PrintDesignMatrix="N" SASSPDS="N" Performance="N" ExcludedVariable="REJECT" ForceRun="N" RunAction="Train" Component="Regression" Interactions="">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes>
+<target>
+<DecData Table="EMWS1.Reg_target_DD">
+<Data>
+<Obs TARGET="Y" COUNT="8238" DATAPRIOR="0.5" TRAINPRIOR="0.5" DECPRIOR="." DECISION1="1" DECISION2="0"/>
+<Obs TARGET="N" COUNT="8238" DATAPRIOR="0.5" TRAINPRIOR="0.5" DECPRIOR="." DECISION1="0" DECISION2="1"/>
+</Data>
+<Metadata>
+<Variable NAME="target" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Level Counts" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DATAPRIOR" LABEL="Data Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="TRAINPRIOR" LABEL="Training Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECPRIOR" LABEL="Decision Priors" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION1" LABEL="Y" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION2" LABEL="N" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS1.Reg_target_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" LEVEL="PROFIT" EVENT="" ORDER="" FORMAT="" TYPE="" COST="" USE="N"/>
+<Obs _TYPE_="TARGET" VARIABLE="target" LABEL="" LEVEL="BINARY" EVENT="Y" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION1" LABEL="Y" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION2" LABEL="N" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DATAPRIOR" VARIABLE="DATAPRIOR" LABEL="Data Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="TRAINPRIOR" VARIABLE="TRAINPRIOR" LABEL="Training Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="DECPRIOR" VARIABLE="DECPRIOR" LABEL="Decision Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_targety" LABEL="Predicted: target=y" LEVEL="Y" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_targety" LABEL="Residual: target=y" LEVEL="Y" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_targetN" LABEL="Predicted: target=N" LEVEL="N" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_targetN" LABEL="Residual: target=N" LEVEL="N" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="FROM" VARIABLE="F_target" LABEL="From: target" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="INTO" VARIABLE="I_target" LABEL="Into: target" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EVENT" LABEL="Target Event" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ORDER" LABEL="Order" LENGTH="10" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</DecMeta>
+</target>
+</EmTargetAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMSAMP.SAMPLING.CLASS" COMPONENT="Sample" ID="Smpl" X="509" Y="185" DESCRIPTION="Sample" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="Smpl">
+<PROPERTIES Method="STRATIFY" SizeType="PERCENT" SizePercent="100" SizeObs="." RandomSeed="12345" Alpha="0.01" Pvalue="0.01" AdjustFreq="N" FreqMiss="N" FreqCount="N" StratifyCriterion="EQUAL" MinStrataSize="5" IgnoreSmallStrata="N" ClusterMethod="RANDOM" LevelProportion="100" LevelSampleProportion="50" LevelSelection="EVENT" OutputType="DATA" IntervalDistribution="Y" ClassDistribution="Y" ForceRun="N" RunAction="Train" Component="Sample">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.EMTRANS.CLASS" COMPONENT="Transform" ID="Trans" X="196" Y="175" DESCRIPTION="Transform Variables" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Trans">
+<PROPERTIES DefaultMethod="NONE" DefaultTargetMethod="NONE" DefaultClassMethod="NONE" DefaultClassTargetMethod="NONE" Offset="1" MinOffset="Y" HideVariable="Y" RejectVariable="Y" GroupCutoff="0.1" GroupMissing="N" EmRandomSeed="12345" EmSampleSize="DEFAULT" EmSampleMethod="FIRSTN" MissingValue="USEINSEARCH" SummaryVariables="TRANSFORMED" SummaryStatistics="Y" UseMetaTransform="Y" MissingAsLevel="N" NumberofBins="VARIABLES" MaxOptimalBins="4" ForceRun="N" RunAction="Train" Component="Transform">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<INTERACTION Type="DATA">
+<Data/>
+<Metadata/>
+</INTERACTION>
+<FORMULA Type="DATA">
+<Data/>
+<Metadata/>
+</FORMULA>
+<EDITORCODE Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+if q28 = 1 then target = 'N';
+if q28 ne 1 then target = 'y';
+]]>
+</Data>
+</EDITORCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="DecisionTree" ID="Tree" X="864" Y="219" DESCRIPTION="Decision Tree" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Tree">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMODL.TREE.SOURCE" ToolType="MODEL" TrainMode="BATCH" ImportModel="N" Freeze="N" UseMultipleTarget="N" Precision="4" IntervalCriterion="PROBF" NominalCriterion="PROBCHISQ" OrdinalCriterion="ENTROPY" SigLevel="0.2" Splitsize="." LeafSize="5" MinCatSize="5" Maxbranch="2" Maxdepth="6" Nrules="5" Nsurrs="0" MissingValue="USEINSEARCH" UseVarOnce="N" SplitPrecision="4" Subtree="LARGEST" NSubtree="1" AssessMeasure="MISC" AssessPercentage="0.25" NodeSample="20000" Exhaustive="5000" Kass="Y" KassApply="BEFORE" Depth="Y" Inputs="N" NumInputs="1" VarSelection="Y" Leafid="Y" NodeRole="SEGMENT" Performance="DISK" CV="N" CVNIter="10" CVRepeat="1" CVSeed="12345" ObsImportance="N" NumSingleImp="5" UseDecision="N" UsePriors="N" ClassColorBy="PERCENTCORRECT" IntColorBy="AVG" ShowNodeId="Y" ShowValid="Y" Pred="N" Target="ALL" Count="Y" ProfitLoss="NONE" PercentCorrect="N" AVG="Y" RASE="N" CreateSample="DEFAULT" SampleMethod="RANDOM" SampleSize="10000" SampleSeed="12345" ForceRun="N" RunAction="Train" Component="DecisionTree" Criterion="DEFAULT" Dummy="N" Predict="Y" ImportedTreeData="">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes>
+<target>
+<DecData Table="EMWS1.Tree_target_DD">
+<Data>
+<Obs TARGET="Y" COUNT="8238" DATAPRIOR="0.5" TRAINPRIOR="0.5" DECPRIOR="." DECISION1="1" DECISION2="0"/>
+<Obs TARGET="N" COUNT="8238" DATAPRIOR="0.5" TRAINPRIOR="0.5" DECPRIOR="." DECISION1="0" DECISION2="1"/>
+</Data>
+<Metadata>
+<Variable NAME="target" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Level Counts" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DATAPRIOR" LABEL="Data Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="TRAINPRIOR" LABEL="Training Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECPRIOR" LABEL="Decision Priors" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION1" LABEL="Y" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION2" LABEL="N" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS1.Tree_target_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" LEVEL="PROFIT" EVENT="" ORDER="" FORMAT="" TYPE="" COST="" USE="N"/>
+<Obs _TYPE_="TARGET" VARIABLE="target" LABEL="" LEVEL="BINARY" EVENT="Y" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION1" LABEL="Y" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION2" LABEL="N" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DATAPRIOR" VARIABLE="DATAPRIOR" LABEL="Data Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="TRAINPRIOR" VARIABLE="TRAINPRIOR" LABEL="Training Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="DECPRIOR" VARIABLE="DECPRIOR" LABEL="Decision Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_targety" LABEL="Predicted: target=y" LEVEL="Y" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_targety" LABEL="Residual: target=y" LEVEL="Y" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_targetN" LABEL="Predicted: target=N" LEVEL="N" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_targetN" LABEL="Residual: target=N" LEVEL="N" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="FROM" VARIABLE="F_target" LABEL="From: target" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="INTO" VARIABLE="I_target" LABEL="Into: target" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EVENT" LABEL="Target Event" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ORDER" LABEL="Order" LENGTH="10" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</DecMeta>
+</target>
+</EmTargetAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.VARSELECTION.CLASS" COMPONENT="VariableSelection" ID="Varsel" X="697" Y="114" DESCRIPTION="Variable Selection" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Varsel">
+<PROPERTIES TargetModel="DEFAULT" HideRejectedVars="Y" MaxMissingPercent="50" MaxLevel="100" RejectUnusedInputVars="Y" ByPassVars="NONE" ByPassVarsRole="INPUT" HideUnusedInputVars="Y" UseAov16="N" UseInteractions="N" UseGroups="Y" MinR2="0.005" StopR2="0.0005" MaxRows="3000" Passes="6" ChiSquare="3.84" Bins="50" SASSPDS="Y" PrintOption="DEFAULT" ForceRun="N" RunAction="Train" Component="VariableSelection" VarselLabel="VARSELLABEL" RoleUnusedVars="DEFAULT">
+<VariableProperties/>
+<ManualSelectionVariables/>
+<NameMappings/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+</NODES>
+<CONNECTIONS>
+<CONNECTION FROM="Impt" TO="Varsel"/>
+<CONNECTION FROM="Meta" TO="Smpl"/>
+<CONNECTION FROM="Smpl" TO="Impt"/>
+<CONNECTION FROM="FIMPORT" TO="Filter"/>
+<CONNECTION FROM="Filter" TO="Trans"/>
+<CONNECTION FROM="Trans" TO="Meta"/>
+<CONNECTION FROM="Varsel" TO="Reg"/>
+<CONNECTION FROM="Varsel" TO="Tree"/>
+</CONNECTIONS>
+<NOTES>
+<DATA><![CDATA[
+
+]]>
+</DATA>
+</NOTES>
+</Workspace>
+</_ROOT_>

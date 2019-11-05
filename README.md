@@ -22,7 +22,17 @@ The YRBSS also measures the prevalence of obesity and asthma among youth and you
   
     The complete dataset is broken down into seperate individual files for ease of analysis and to reduce the file size. The complete data is broken down by National, State and District levels. For our analysis, we will be using the state dataset. 
     
-    This dataset is further broken down into two parts (a-m, n-z) and contains contains 962,925 observations spread accross 89n variables in all.
+    This dataset is further broken down into two parts (a-m, n-z) and contains contains 962,925 observations spread accross 89n variables in all.  The data consists of the original as well as dichotomized versions of the responses. For our analysis, we are presently considering only the original questions. The supplemental questions however, could also be useful in analysis.
+    
+    Seven kinds of variables are included in the Combined Datasets:
+      1. Sample variables (siteCode, siteName, siteType, siteTypeNum, year, survyear, weight, stratum, PSU)
+      2. Demographic variables (age, sex, grade, race4, race7)
+      3. Body mass index (BMI) variables (stheight, stweight, bmi, bmipct, qnobese, qnowt)
+      4. Sexual minority variables
+      5. 2017 questionnaire variables
+      6. 2017 supplemental variables
+      7. Selected additional risk behavior optional question variables
+
     
   - Creating the dataset
       1. Download the below files:

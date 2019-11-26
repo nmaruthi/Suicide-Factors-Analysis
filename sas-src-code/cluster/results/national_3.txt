@@ -1,0 +1,71 @@
+                                                                                           Friday, November 22, 2019 01:36:00 PM   1
+                                                    ‘5-class model, 7 items’
+
+              Data Summary, Model Information, and Fit Statistics (EM Algorithm)
+
+ 
+
+Number of subjects in dataset:         837
+Number of subjects in analysis:        837
+
+Number of measurement items:             6
+Response categories per item:            2 2 2 2 2 2
+Number of groups in the data:            1
+Number of latent classes:                3
+Rho starting values were randomly generated (seed = 861551).
+
+No parameter restrictions were specified (freely estimated).
+
+The model converged in 5125 iterations.
+
+Maximum number of iterations: 999999
+Convergence method: maximum absolute deviation (MAD)
+Convergence criterion:  0.000001000
+
+=============================================
+Fit statistics:
+=============================================
+
+Log-likelihood:     -2724.38
+G-squared:             40.25
+AIC:                   80.25
+BIC:                  174.84
+CAIC:                 194.84
+Adjusted BIC:         111.33
+Entropy:                0.65
+Degrees of freedom:       43
+
+Test for MCAR
+      Log-likelihood:     -2704.25
+      G-squared:            228.46
+      Degrees of freedom:      330
+
+                                                                                           Friday, November 22, 2019 01:36:00 PM   2
+                                                    ‘5-class model, 7 items’
+
+                            Parameter Estimates
+
+(Standard errors could not be computed; please see the log file for details. )
+Gamma estimates (class membership probabilities): 
+Class:                     1          2          3
+                      0.1293     0.6057     0.2651
+
+Rho estimates (item response probabilities): 
+  Response category  1:
+Class:                     1          2          3
+  QNOBESE     :       0.2483     0.1707     0.1904
+  QN23        :       0.3876     0.2175     1.0000
+  QN24        :       0.2916     0.1610     0.9537
+  QN98        :       0.8547     0.6083     0.8073
+  QN81        :       1.0000     0.4393     0.5721
+  QNPA0DAY    :       0.3789     0.1667     0.1862
+
+  Response category  2:
+Class:                     1          2          3
+  QNOBESE     :       0.7517     0.8293     0.8096
+  QN23        :       0.6124     0.7825     0.0000
+  QN24        :       0.7084     0.8390     0.0463
+  QN98        :       0.1453     0.3917     0.1927
+  QN81        :       0.0000     0.5607     0.4279
+  QNPA0DAY    :       0.6211     0.8333     0.8138
+

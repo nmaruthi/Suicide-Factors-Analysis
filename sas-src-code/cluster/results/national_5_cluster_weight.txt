@@ -1,0 +1,80 @@
+                                                                                           Friday, November 22, 2019 01:36:00 PM   1
+                                                    ‘5-class model, 7 items’
+
+              Data Summary, Model Information, and Fit Statistics (EM Algorithm)
+
+ 
+
+Number of subjects in dataset:         837
+Number of subjects in analysis:        837
+Number of clusters in analysis:         50
+Smallest cluster size:                   1 
+Largest cluster size:                   47 
+
+Number of measurement items:             4
+Response categories per item:            2 2 2 2
+Number of groups in the data:            1
+Number of latent classes:                3
+
+The analysis includes sampling weights.  
+Weighting variable name:  WEIGHT                               
+
+The analysis includes clusters.  
+Cluster variable name:  PSU                                  
+Rho starting values were randomly generated (seed = 861551).
+
+No parameter restrictions were specified (freely estimated).
+
+The model converged in 4914 iterations.
+
+Maximum number of iterations: 999999
+Convergence method: maximum absolute deviation (MAD)
+Convergence criterion:  0.000001000
+
+=============================================
+Fit statistics:
+=============================================
+
+Log-likelihood:     -1961.14
+G-squared:              1.14
+AIC:                   29.14
+BIC:                   95.35
+CAIC:                 109.35
+Adjusted BIC:          50.89
+Entropy:                0.71
+Degrees of freedom:        1
+(Based on the pseudo-likelihood incorporating weights.)
+
+                                                                                           Friday, November 22, 2019 01:36:00 PM   2
+                                                    ‘5-class model, 7 items’
+
+                            Parameter Estimates
+
+Class membership probabilities: Gamma estimates (standard errors) 
+Class:                     1          2          3
+                      0.2720     0.4001     0.3279
+                     (0.0241)   (0.1152)   (0.1251)
+
+Item response probabilities: Rho estimates (standard errors) 
+  Response category  1:
+Class:                     1          2          3
+  QN19        :       0.9992     0.0001     0.1694
+                     (0.0018)   (0.0002)   (0.0586)
+  QN25        :       0.9770     0.8742     0.6532
+                     (0.0112)   (0.0304)   (0.1017)
+  QN23        :       0.7096     0.7361     0.0000
+                     (0.0780)   (0.2146)   (0.0000)
+  QN17        :       0.5827     0.5116     0.2910
+                     (0.0529)   (0.0489)   (0.0888)
+
+  Response category  2:
+Class:                     1          2          3
+  QN19        :       0.0008     0.9999     0.8306
+                     (0.0018)   (0.0002)   (0.0586)
+  QN25        :       0.0230     0.1258     0.3468
+                     (0.0112)   (0.0304)   (0.1017)
+  QN23        :       0.2904     0.2639     1.0000
+                     (0.0780)   (0.2146)   (0.0000)
+  QN17        :       0.4173     0.4884     0.7090
+                     (0.0529)   (0.0489)   (0.0888)
+

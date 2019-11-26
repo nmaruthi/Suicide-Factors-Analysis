@@ -1,0 +1,30 @@
+Clustering variables
+x - qnobese
+qn25 - Sad or hopeless
+
++qbullyweight
++qbullygender
++qbullygay
+qn23 - Bullying at school
+QN24 - Electronic bullying
+
+QNPA0DAY - Did not participate in at least 60 minutes of physical activity on at least 1 day 
+-qn11 - Texting and driving 
+qn81- Computer use 
+
+qn89 - Grades in school (1-AorB, 2-Everything else)
+qn98 - Difficulty concentrating	
+
+qnbcnone
+
++qprescription30d
++qcurrentcocaine
++qcurrentheroin
++qcurrentmeth
++qhallucdrug
+
+Profiling variables
+age
+sex
+race4/7
+q67 - lgbtq (sexid)

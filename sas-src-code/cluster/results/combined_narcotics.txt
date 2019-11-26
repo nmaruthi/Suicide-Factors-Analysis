@@ -1,0 +1,79 @@
+                                                                                           Friday, November 22, 2019 01:36:00 PM   1
+                                                            ‘Final’
+
+              Data Summary, Model Information, and Fit Statistics (EM Algorithm)
+
+ 
+
+Number of subjects in dataset:         837
+Number of subjects in analysis:        837
+
+Number of measurement items:             5
+Response categories per item:            2 2 2 2 2
+Number of groups in the data:            1
+Number of latent classes:                3
+Rho starting values were randomly generated (seed = 861551).
+
+No parameter restrictions were specified (freely estimated).
+
+The model converged in 837 iterations.
+
+Maximum number of iterations: 999999
+Convergence method: maximum absolute deviation (MAD)
+Convergence criterion:  0.000001000
+
+=============================================
+Fit statistics:
+=============================================
+
+Log-likelihood:     -2383.43
+G-squared:             10.99
+AIC:                   44.99
+BIC:                  125.40
+CAIC:                 142.40
+Adjusted BIC:          71.41
+Entropy:                0.38
+Degrees of freedom:       14
+
+Test for MCAR
+      Log-likelihood:     -2377.93
+      G-squared:            110.23
+      Degrees of freedom:      107
+
+                                                                                           Friday, November 22, 2019 01:36:00 PM   2
+                                                            ‘Final’
+
+                            Parameter Estimates
+
+Class membership probabilities: Gamma estimates (standard errors) 
+Class:                     1          2          3
+                      0.3708     0.2982     0.3311
+                     (0.0956)   (0.1134)   (0.1191)
+
+Item response probabilities: Rho estimates (standard errors) 
+  Response category  1:
+Class:                     1          2          3
+  qn19        :       0.5275     0.2984     0.0924
+                     (0.0552)   (0.0809)   (0.0502)
+  qn25        :       0.9535     0.9520     0.5602
+                     (0.0308)   (0.0973)   (0.0967)
+  qn23        :       0.6406     0.4897     0.1947
+                     (0.0487)   (0.1068)   (0.0629)
+  qn17        :       0.7170     0.1711     0.4061
+                     (0.0504)   (0.1883)   (0.0940)
+  narcoticdrug:       0.4420     0.0000     0.1546
+                     (0.1103)   (0.0000)   (0.0553)
+
+  Response category  2:
+Class:                     1          2          3
+  qn19        :       0.4725     0.7016     0.9076
+                     (0.0552)   (0.0809)   (0.0502)
+  qn25        :       0.0465     0.0480     0.4398
+                     (0.0308)   (0.0973)   (0.0967)
+  qn23        :       0.3594     0.5103     0.8053
+                     (0.0487)   (0.1068)   (0.0629)
+  qn17        :       0.2830     0.8289     0.5939
+                     (0.0504)   (0.1883)   (0.0940)
+  narcoticdrug:       0.5580     1.0000     0.8454
+                     (0.1103)   (0.0000)   (0.0553)
+

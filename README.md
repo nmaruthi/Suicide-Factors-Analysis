@@ -20,9 +20,9 @@ The YRBSS also measures the prevalence of obesity and asthma among youth and you
 
   - Description
   
-    The complete dataset is broken down into seperate individual files for ease of analysis and to reduce the file size. The complete data is broken down by National, State and District levels. For our analysis, we will be using the state dataset. 
+    The complete dataset is broken down into seperate individual files for ease of analysis and to reduce the file size. The complete data is broken down by National, State and District levels. For our analysis, we will be using the  consildated national dataset. 
     
-    This dataset is further broken down into two parts (a-m, n-z) and contains contains 962,925 observations spread accross 89n variables in all.  The data consists of the original as well as dichotomized versions of the responses. For our analysis, we are presently considering only the original questions. The supplemental questions however, could also be useful in analysis.
+   For the 2017 YRBS survey, a total of 192 schools were sampled, of which, 144 schools participated totaling to 18,324 students surveyed.  14,956 of the 18,324 sampled students submitted questionnaires, which composed of 99 questions; 14,765 questionnaires were usable after data editing. The final dataset consists of 14,765 rows and 242 variables, which included original survey variables, calculated variables, and dichotomized variables.
     
     Seven kinds of variables are included in the Combined Datasets:
       1. Sample variables (siteCode, siteName, siteType, siteTypeNum, year, survyear, weight, stratum, PSU)
@@ -36,11 +36,9 @@ The YRBSS also measures the prevalence of obesity and asthma among youth and you
     
   - Creating the dataset
       1. Download the below files:
-        ftp://ftp.cdc.gov/pub/data/yrbs/sadc_2017/sadc_2017_state_a_m.dat
-        ftp://ftp.cdc.gov/pub/data/yrbs/sadc_2017/sadc_2017_state_n_z.dat
+        
       2. Download and run the below SAS programs to read the ASCII files and create the datasets with formats:
-        ftp://ftp.cdc.gov/pub/data/yrbs/sadc_2017/2017_sadc_sas_input_program.sas
-        ftp://ftp.cdc.gov/pub/data/yrbs/sadc_2017/2017_sadc_sas_formats_program.sas
+        
   
 ## 3. Basic Analysis
 

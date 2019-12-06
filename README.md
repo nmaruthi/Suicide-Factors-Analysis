@@ -36,6 +36,8 @@ Individual YRBS national datasets were from 2007-2017 were downloaded from CDC w
 Code:
 https://github.com/osu-msba/sss-2020-group-8/blob/master/sas-src-code/trend_analysis.sas
 
+<img src="https://github.com/osu-msba/sss-2020-group-8/blob/master/miscellaneous-resources/analysis-screenshots/trends.PNG" data-canonical-src="https://github.com/osu-msba/sss-2020-group-8/blob/master/miscellaneous-resources/analysis-screenshots/trends.PNG" width="1000" height="500" />
+
 ### ii. Latent Class Analysis
 Data:
 https://github.com/osu-msba/sss-2020-group-8/blob/master/data/master-data-files/conssa.sas7bdat

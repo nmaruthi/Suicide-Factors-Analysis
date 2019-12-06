@@ -29,14 +29,14 @@ This paper attempts to examine co-occurrences of behavioral characteristics amon
 
 ## 4. Analysis
 
-### 1. Trends Analysis
+### i. Trends Analysis
 Data:
 Individual YRBS national datasets were from 2007-2017 were downloaded from CDC website and frequencies of suicidal ideation variables were computed using proc SURVEYFREQ for each year. Percentages of Variable of interest from each year is taken and consolidated in a single dataset for every unique question. A line plot is plotted to see the trend in the variable in past decade. Even though, it seems increasing, a statistical test need to be conducted to determine if the trends are significant. A linear trend analysis using logistic regression controlling for sex, race and grade has been done. Since time is a discrete variable, it has to be converted to continuous. T3L_L is linear continuous time variable created using proc IML in SAS®. T3Q is Quadratic continuous time variable. A logistic regression model was built using variable of interest as target controlling for sex,race,grade to test the significance in linear trends. If p-value of the continuous time variable is <0.05, then linear trend is significant
 
 Code:
 https://github.com/osu-msba/sss-2020-group-8/blob/master/sas-src-code/trend_analysis.sas
 
-### 2. Latent Class Analysis
+### ii. Latent Class Analysis
 Data:
 https://github.com/osu-msba/sss-2020-group-8/blob/master/data/master-data-files/conssa.sas7bdat
 
@@ -47,7 +47,7 @@ Furthermore, on profiling, it was seen that the sexually assaulted class had the
 Code:
 https://github.com/osu-msba/sss-2020-group-8/blob/master/sas-src-code/cluster/latent_class_analysis.sas
 
-### 3. Logistic Regression
+### iii. Logistic Regression
 Data:
 
 From the literature review, 18 variables were selected to understand the relationship with suicidal risk behavior. To understand the causal relationships between the variables, the Bayesian network model was built in SAS® Enterprise MinerTM using High-Performance Bayesian Network Classifier Node. In this model, the Markov Blanket Bayesian network was selected as it helps display significant relationships not only between independent and target variables, but also between independent variables themselves. The significant relationships are shown in the appendix. Seven individual independent variables and four interaction terms were found to be significant among all the 18 independent variables, which were fed into the algorithm. Seven independent variables included drug abuse, sexual minorities, bullied, sexual assault, depression, involvement in physical fights, and perception of obesity. Four interactions were seen between variables: depression and sexual assault, depression and perception of obesity, depression and bullied, drug abuse and sexual assault. 

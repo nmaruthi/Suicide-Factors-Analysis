@@ -1,5 +1,5 @@
-# sss-2020-group-8 - Data Jockeys
-Repository for Group # 8 for SAS Student Symposium 2020 work.
+# Data Jockeys
+Group # 8, SAS Student Symposium 2020 submission.
 
 <img src="https://github.com/osu-msba/sss-2020-group-8/blob/master/miscellaneous-resources/group-images/title.PNG" data-canonical-src="https://github.com/osu-msba/sss-2020-group-8/blob/master/miscellaneous-resources/group-images/title.PNG" width="1000" height="500" />
 

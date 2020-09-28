@@ -7,6 +7,12 @@ Group # 8, SAS Student Symposium 2020 submission.
 
 ## Important Resources
 
+### Video Presentation
+https://www.youtube.com/watch?v=xL86pDfBoMA&list=PLVV6eZFA22QwR1NG3UNbSFDETQcFy0Ykt&index=4&t=11s&ab_channel=SASUsers
+
+### Proceedings
+https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2020/5201-2020.pdf
+
 ### Report
 PDF: https://github.com/osu-msba/sss-2020-group-8/blob/master/abstract/SASGF2020-group8-data-jockeys.pdf
 

@@ -13,12 +13,12 @@ https://www.youtube.com/watch?v=xL86pDfBoMA&list=PLVV6eZFA22QwR1NG3UNbSFDETQcFy0
 ### Proceedings
 https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2020/5201-2020.pdf
 
-### Report
+### Initial Report
 PDF: https://github.com/osu-msba/sss-2020-group-8/blob/master/abstract/SASGF2020-group8-data-jockeys.pdf
 
 Word: https://github.com/osu-msba/sss-2020-group-8/blob/master/abstract/SASGF2020-group8-data-jockeys.docx
 
-### Presentation
+### Initial Presentation
 https://github.com/osu-msba/sss-2020-group-8/blob/master/presentation/suicide_squad.pptx
 
 ## 1. Abstract
